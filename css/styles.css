@@ -174,10 +174,15 @@ h3 {
 }
 
 .span-logo {
-    color: #2e2f42;
+    color: #2e2f42;;
     /* Колір тексту для span */
 }
+/* Стилі для span в футері */
+.footer-span {
 
+ color: #f4f4fd;
+    /* Колір тексту для span у футері */
+}
 .footer_paragraph {
     line-height: 1.5;
     /* Висота рядка */
