@@ -2,8 +2,9 @@
     list-style-type: none;
 }
 .link{
-    text-decoration: none;
+    text-decoration: none;  
 }
+
 button{
     cursor: pointer;
 }
@@ -15,6 +16,9 @@ body{
 
 .contact_info {
     font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 .logotype{
     font-family: Raleway, sans-serif;
@@ -42,9 +46,10 @@ body{
         letter-spacing: 0.02em;
         color: #2E2F42;
 }
-.menu-link:hover,
-.menu-link:focus {
-    color:#404BBF;
+.link:hover,
+.link:focus {
+color: #404bbf;
+
 }
 p{
     color: #434455;
