@@ -22,15 +22,15 @@ body{
     text-transform: uppercase; 
     color: #4d5ae5; 
 }
-.span-logo{
-        font-family: Raleway, sans-serif;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 1.11;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: #4D5AE5;
+.span-logo {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2e2f42;
 }
 .menu-link{
         font-size: 16px;
