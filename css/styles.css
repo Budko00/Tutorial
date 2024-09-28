@@ -168,3 +168,21 @@ h3 {
     background-color: #404BBF;
     /* Зміна кольору фону при наведенні та фокусі */
 }
+.footer_section {
+    background-color: #2e2f42;
+    /* Колір фону футера */
+}
+
+.span-logo {
+    color: #f4f4fd;
+    /* Колір тексту для span */
+}
+
+.footer_paragraph {
+    line-height: 1.5;
+    /* Висота рядка */
+    color: var(--text-color, #F4F4FD);
+    /* Колір тексту, використовуючи CSS змінну */
+    letter-spacing: 0.02em;
+    /* Відстань між літерами */
+}
