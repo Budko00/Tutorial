@@ -1,68 +1,125 @@
-.list{
+/* Скидання стилю для списків */
+.list {
     list-style-type: none;
+    /* Вимкнення стандартних маркерів списку */
 }
-.link{
 
-    text-decoration: none; 
+/* Стилі для посилань */
+.link {
+    text-decoration: none;
+    /* Вимкнення підкреслення */
     line-height: 1.5;
+    /* Висота рядка */
     letter-spacing: 0.02em;
-    color: #434455; 
-  }
+    /* Відстань між літерами */
+    color: #2e2f42;
+    /* Колір тексту */
+}
 
-button{
+.button {
     cursor: pointer;
-}
-body{
-    font-family: Roboto, sans-serif;
-    color:#434455;
-    background-color: #FFFFFF;
+    /* Курсор при наведенні на кнопку */
 }
 
+/* Основні стилі для тіла сторінки */
+body {
+    font-family: Roboto, sans-serif;
+    /* Шрифт для тіла */
+    color: #434455;
+    /* Основний колір тексту */
+    background-color: #FFFFFF;
+    /* Колір фону */
+}
+
+/* Стилі для контактної інформації */
 .contact_info {
     font-style: normal;
+    /* Нормальний стиль шрифту */
     line-height: 1.5;
+    /* Висота рядка */
     letter-spacing: 0.02em;
+    /* Відстань між літерами */
     color: #434455;
+    /* Колір тексту */
 }
-.logotype{
+
+/* Стилі для логотипу */
+.logotype {
     font-family: Raleway, sans-serif;
+    /* Шрифт логотипу */
     font-size: 18px;
+    /* Розмір шрифту */
     font-weight: 700;
+    /* Товщина шрифту */
     line-height: 1.17;
+    /* Висота рядка */
     letter-spacing: 0.03em;
-    text-transform: uppercase; 
-    color: #4d5ae5; 
+    /* Відстань між літерами */
+    text-transform: uppercase;
+    /* Усі літери великі */
+    color: #4d5ae5;
+    /* Колір логотипу */
 }
+
+/* Стилі для логотипу (ікони) */
 .span-logo {
     font-family: 'Raleway', sans-serif;
+    /* Шрифт */
     font-size: 18px;
+    /* Розмір шрифту */
     font-style: normal;
+    /* Нормальний стиль */
     font-weight: 700;
+    /* Товщина шрифту */
     line-height: 1.11;
+    /* Висота рядка */
     letter-spacing: 0.03em;
+    /* Відстань між літерами */
     text-transform: uppercase;
+    /* Усі літери великі */
     color: #2e2f42;
+    /* Колір тексту */
 }
-.menu-link{
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color:#2e2f42;
+
+/* Стилі для пунктів меню */
+.menu-link {
+    font-size: 16px;
+    /* Розмір шрифту */
+    font-weight: 500;
+    /* Товщина шрифту */
+    line-height: 1.5;
+    /* Висота рядка */
+    letter-spacing: 0.02em;
+    /* Відстань між літерами */
+    color: #2e2f42;
+    /* Колір тексту */
 }
+
+/* Стилі для посилань при наведенні та фокусі */
 .link:hover,
 .link:focus {
-color: #404bbf;
+    color: #404bbf;
+    /* Зміна кольору при наведенні або фокусі */
+}
 
-}
-p{
+/* Стилі для абзаців */
+p {
     color: #434455;
+    /* Колір тексту */
 }
-h3{
-font-family: Roboto, sans-serif;
+
+/* Стилі для заголовків третього рівня */
+h3 {
+    font-family: Roboto, sans-serif;
+    /* Шрифт */
     font-size: 18px;
+    /* Розмір шрифту */
     font-weight: 500;
+    /* Товщина шрифту */
     line-height: 1.11;
+    /* Висота рядка */
     letter-spacing: 0.03em;
+    /* Відстань між літерами */
     color: #2E2F42;
+    /* Колір тексту */
 }
