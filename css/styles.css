@@ -122,4 +122,57 @@ h3 {
     /* Відстань між літерами */
     color: #2E2F42;
     /* Колір тексту */
+}/* Стилі для секції */
+.main_section {
+    background-color: #2e2f42;
+    /* Фон секції */
+    padding: 20px;
+    /* Внутрішні відступи */
+}
+
+/* Стилі для заголовка */
+.section_title {
+    font-size: 56px;
+    /* Розмір шрифту */
+    line-height: 1.07;
+    /* Висота рядка */
+    text-align: center;
+    /* Вирівнювання тексту по центру */
+    letter-spacing: 0.02em;
+    /* Відстань між літерами */
+    color: #ffffff;
+    /* Колір тексту */
+}
+
+/* Стилі для кнопки */
+.cta_button {
+    background-color: #4D5AE5;
+    /* Колір фону кнопки */
+    font-family: "Roboto", sans-serif;
+    /* Шрифт кнопки */
+    font-weight: 500;
+    /* Жирність шрифту */
+    font-size: 16px;
+    /* Розмір шрифту */
+    line-height: 1.5;
+    /* Висота рядка */
+    letter-spacing: 0.04em;
+    /* Відстань між літерами */
+    color: #ffffff;
+    /* Колір тексту в кнопці */
+    cursor: pointer;
+    /* Стиль курсору */
+    padding: 10px 20px;
+    /* Внутрішні відступи для кнопки */
+    border: none;
+    /* Вимкнення обводки */
+    border-radius: 5px;
+    /* Заокруглені кути */
+}
+
+/* Зміни кольору кнопки при наведені та фокусі */
+.cta_button:hover,
+.cta_button:focus {
+    background-color: #404BBF;
+    /* Зміна кольору фону при наведенні та фокусі */
 }
