@@ -42,7 +42,31 @@ body {
     color: #434455;
     /* Колір тексту */
 }
+/* Стилі для заголовків у секції "Our benefits" */
+.benefit-title {
+    font-weight: 500;
+    /* Жирність шрифту */
+    font-size: 20px;
+    /* Розмір шрифту */
+    line-height: 1.2;
+    /* Висота рядка */
+    letter-spacing: 0.02em;
+    /* Відстань між літерами */
+    color: #2e2f42;
+    /* Колір тексту */
+}
 
+/* Стилі для параграфів у секції "Our benefits" */
+.benefit-text {
+    font-size: 16px;
+    /* Розмір шрифту */
+    line-height: 1.5;
+    /* Висота рядка */
+    letter-spacing: 0.02em;
+    /* Відстань між літерами */
+    color: #434455;
+    /* Колір тексту */
+}
 /* Стилі для логотипу */
 .logotype {
     font-family: Raleway, sans-serif;
