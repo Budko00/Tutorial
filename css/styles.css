@@ -220,17 +220,56 @@ h3 {
     letter-spacing: 0.02em;
     /* Відстань між літерами */
 }
-.our-team {
-background-color: #F4F4FD
+/* Секція */
+.team {
+    background-color: #F4F4FD;
+    /* Фон секції */
 }
+
+/* Заголовок секції */
 .our-team-title {
-font-size: 36px;
-line-height: 1.11;
-text-align: center;
-letter-spacing: 0.02em;
-text-transform: capitalize;
-color: #2e2f42;
+    font-size: 36px;
+    /* Розмір шрифту */
+    line-height: 1.11;
+    /* Простір між рядками */
+    text-align: center;
+    /* Вирівнювання тексту по центру */
+    letter-spacing: 0.02em;
+    /* Відстань між літерами */
+    text-transform: capitalize;
+    /* Текст із великої літери */
+    color: #2e2f42;
+    /* Колір тексту */
 }
-.our-team-photo {
-background-color: #FFFFFF
+
+/* Пункт списку */
+.team-item {
+    background-color: #FFFFFF;
+    /* Фон пункту списку */
+}
+
+/* Заголовок пункту списку */
+.team-item-title {
+    font-weight: 500;
+    /* Жирність шрифту */
+    font-size: 20px;
+    /* Розмір шрифту */
+    line-height: 1.2;
+    /* Простір між рядками */
+    letter-spacing: 0.02em;
+    /* Відстань між літерами */
+    color: #2e2f42;
+    /* Колір тексту */
+}
+
+/* Параграф у пункті списку */
+.team-item-text {
+    font-size: 16px;
+    /* Розмір шрифту */
+    line-height: 1.5;
+    /* Простір між рядками */
+    letter-spacing: 0.02em;
+    /* Відстань між літерами */
+    color: #434455;
+    /* Колір тексту */
 }
