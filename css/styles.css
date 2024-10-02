@@ -86,7 +86,7 @@ body {
 }
 
 /* Стилі для логотипу (ікони) */
-.span-logo {
+.span-logo, .span-logo-web {
     font-family: 'Raleway', sans-serif;
     /* Шрифт */
     font-size: 18px;
@@ -101,10 +101,15 @@ body {
     /* Відстань між літерами */
     text-transform: uppercase;
     /* Усі літери великі */
+
+}.span-logo-web{
+    color: #4D5AE5;
+}
+.span-logo{
     color: #2e2f42;
     /* Колір тексту */
-}
 
+}
 /* Стилі для пунктів меню */
 .menu-link {
     font-size: 16px;
@@ -214,4 +219,18 @@ h3 {
     /* Колір тексту, використовуючи CSS змінну */
     letter-spacing: 0.02em;
     /* Відстань між літерами */
+}
+.our-team {
+background-color: #F4F4FD
+}
+.our-team-title {
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: #2e2f42;
+}
+.our-team-photo {
+background-color: #FFFFFF
 }
